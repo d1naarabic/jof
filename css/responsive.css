@@ -1,0 +1,42 @@
+@media only screen and (max-width:768px) {
+   .navbar .nav a{
+        display: none;
+       }
+       .header{
+        height: 100%;
+       }
+       .banner__content{
+        grid-template-columns: 1fr;
+       
+       }
+       .about__content{
+        grid-template-columns: 1fr;
+        
+      }
+      .our{
+        width: 100%;
+      }
+      .our__content{
+        grid-template-columns: 1fr;
+       
+      }
+      .fresh__content{
+        grid-template-columns: 1fr;
+      }
+      .fresh img{
+        margin-left: 0rem;
+      }.fresh__content .item1{
+        width: 100%;
+       
+        }
+        .blog__content {
+            grid-template-columns: 1fr;
+        }
+        .call__content{
+            grid-template-columns: 1fr;
+        }
+        .footer__content{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+}
